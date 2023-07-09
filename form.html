@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="button"]{
+            color: black;
+            background-color: green;
+
+        }
+        .line{
+            display: inline;
+        }
+        .line .mrgn{
+            margin-right: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="video.html">video</a></li>
+                    <li><a href="form.html">form</a></li>
+                    <li><a href="table.html">table</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+
+    </header>
+    <main>
+        <section>
+            <h3>Please fill up the form</h3>
+            <form>
+                <label for="name">your name:
+                    <input id="name" type="text"placeholder="your name">
+                </label>
+                <label for="email">your email:
+                    <input id="email" type="email"placeholder="email address">
+                </label>
+                <label for="password">your password:
+                    <input type="password"placeholder="type a passcode" name="" id="password">
+                </label>
+                <label class="line" for="phone">your phone
+                    <input type="text" placeholder="phone number" name="" id="phone">
+                </label>
+                <input class="line" type="checkbox" name="" id="check"placeholder="checkbox">
+                <br>
+                <br>
+                <input type="button" value="click here">
+
+                <fieldset>
+                    <legend>pick one pitha</legend>
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">chitoi
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick one or more vorta</legend>
+                    <label for="alu">
+                        <input type="checkbox" name="vorta" id="alu">alu
+                    </label>
+                    <label for="begun">
+                        <input type="checkbox" name="vorta" id="begun">begun
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">shutki
+                    </label>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input title="please click me" type="number" max="10" min="5">
+                <br>
+                <br>
+                <legend>checkbox:</legend>
+                <label class="line" for="under 18">
+                    <input type="checkbox" name="" id="under 18">under 18
+                </label>
+                <label class="line" for="over 18">
+                    <input type="checkbox" name="" id="over 18">over 18
+                </label>
+                <br>
+                <br>
+                <legend>radio:</legend>
+                <label class="line" for="male">
+                    <input type="radio" name="man" id="male">male
+                </label>
+                <label class="line" for="female">
+                    <input  type="radio" name="man" id="female">female
+                </label>
+                
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
